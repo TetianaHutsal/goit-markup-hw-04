@@ -6,6 +6,7 @@
   --btn-filters: #f4f4fd;
   --paragraph-filters: #434455;
   --bg-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  --hover-color-link: #404bbf;
 }
 
 p,
@@ -35,7 +36,8 @@ body {
 
 .link {
   text-decoration: none;
-}
+}  
+
 
 .container {
   width: 1158px;
@@ -147,6 +149,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  padding: 188px 472px 188px 472px;
 }
 
 .hero-title {
@@ -342,6 +345,7 @@ body {
 /* _____Section 5 clients_____ */
 .clients {
   padding-top: 120px;
+  padding-bottom: 120px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -353,42 +357,44 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 72px;
 }
 
 .clients-list {
-  height: 200px;
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
 .clients-item {
+  width: 168px;
+  height: 88px;
+
 }
 
-.clients-icons {
+.clients-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #8e8f99;
-  box-sizing: border-box;
+  color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 168px;
-  height: 88px;
 }
 
-.clients-icons:hover {
-  fill: #404bbf;
-  border: 1px solid #404bbf;
+.clients-icons {
+  fill: currentColor;
 }
 
-.clients-icons:focus {
-  fill: #404bbf;
-  border: 1px solid #404bbf;
+.clients-link:hover {
+  color: #404bbf;
+  border-color: var(--hover-color-link);
+}
+
+.clients-link:focus {
+  color: #404bbf;
+  border-color: var(--hover-color-link)
 }
 
 /* _____footer_____ */
