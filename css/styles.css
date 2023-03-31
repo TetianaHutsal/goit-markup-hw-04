@@ -142,13 +142,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 188px;
   text-align: center;
-  width: 1440px;
-  height: 600px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
   padding: 188px 472px 188px 472px;
 }
 
