@@ -143,9 +143,11 @@ body {
   background-position: center;
   background-size: cover;
   text-align: center;
+  max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding: 188px 472px 188px 472px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -267,7 +269,7 @@ body {
 
 .team-list {
   display: flex;
-  padding-top: 72px;
+  margin-top: 72px;
   gap: 24px;
 }
 
@@ -358,7 +360,6 @@ body {
 
 .clients-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
@@ -481,6 +482,7 @@ body {
 /* _____filters_____ */
 .filters {
   text-align: center;
+  padding-bottom: 120px;
 }
 
 .filters-buttons-list {
@@ -540,7 +542,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
 }
 
 .card:hover {
