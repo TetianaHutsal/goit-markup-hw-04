@@ -396,9 +396,6 @@ body {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 1440px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .footer-container {
@@ -469,11 +466,11 @@ body {
 }
 
 .footer-soc-link:hover {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 .footer-soc-link:focus {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 /* _________________PAGE 2 - PORTFOLIO_________________ */
@@ -518,15 +515,20 @@ body {
 .filters-button:hover {
   color: #ffffff;
   background-color: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: transparent;
 }
 
 .filters-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: transparent;
 }
 
 /* _____rows project cards_____ */
-
 img {
   display: block;
   width: 100%;
@@ -537,6 +539,11 @@ img {
   flex-wrap: wrap;
   gap: 48px 24px;
   padding-bottom: 120px;
+}
+
+.card:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-border {
