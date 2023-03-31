@@ -36,8 +36,7 @@ body {
 
 .link {
   text-decoration: none;
-}  
-
+}
 
 .container {
   width: 1158px;
@@ -366,7 +365,6 @@ body {
 .clients-item {
   width: 168px;
   height: 88px;
-
 }
 
 .clients-link {
@@ -391,7 +389,7 @@ body {
 
 .clients-link:focus {
   color: #404bbf;
-  border-color: var(--hover-color-link)
+  border-color: var(--hover-color-link);
 }
 
 /* _____footer_____ */
